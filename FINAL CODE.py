@@ -154,7 +154,7 @@ else:
         return f"No chocolate with {key} {target} found."
 
 
-    # Assuming merge_sort function is defined above and calling the function
+    # Calling the function
     print()
     print(binary_search_chocolates(chocolates_sorted_by_weight, 5, "weight"))
     print(binary_search_chocolates(chocolates_sorted_by_price, 9, "price"))
